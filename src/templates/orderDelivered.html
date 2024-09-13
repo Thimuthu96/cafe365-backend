@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Delivered - Cafe 365</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        color: #0E9E52;
+        text-align: center;
+      }
+
+      p {
+        color: #333;
+        line-height: 1.6;
+      }
+
+      .button {
+        display: inline-block;
+        background-color: #0E9E52;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+      }
+
+      .button:hover {
+        background-color: #0E9E52;
+      }
+
+      .footer {
+        margin-top: 30px;
+        text-align: center;
+        color: #777;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>YAY!!! Your Order Completed & Delivered soon!</h1>
+      <p>Hello,</p>
+      <p>
+        We are thrilled to inform you that your order has been hand overed to
+        deliver and it will be receive soon to your hand by our delivery
+        service, Here are the details:
+      </p>
+      <ul>
+        <li><strong>Order ID:</strong> #{{OrderId}}</li>
+        <li><strong>Total Amount:</strong> LKR{{orderPrice}}</li>
+        <!-- Add more order details here -->
+      </ul>
+      <p>
+        You have to pay <strong>LKR{{orderPrice}}</strong> and grab your order.
+        You can expect it to be delivered to you soon!
+      </p>
+      <p>
+        If you have any questions or concerns regarding your order, feel free to
+        <a style="color: #0E9E52" href="mailto:cafe365.workstuff@gmail.com"
+          >contact us</a
+        >.
+      </p>
+      <!--<a href="#" class="button">Track Your Order</a>-->
+      <p class="footer">
+        Thank you for choosing Cafe 365 for your culinary needs.<br />If you
+        love our service, please consider leaving us a review!
+      </p>
+    </div>
+  </body>
+</html>

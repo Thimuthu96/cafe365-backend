@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome to Cafe 365!</title>
+    <style>
+      /* Reset styles to ensure consistent rendering */
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+      }
+      /* Container styles */
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+      }
+      /* Header styles */
+      .header {
+        background-color: #0E9E52;
+        color: #f9f9f9;
+        padding: 20px;
+        text-align: center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      /* Content styles */
+      .content {
+        padding: 20px 0;
+      }
+      /* Footer styles */
+      .footer {
+        background-color: #0E9E52;
+        padding: 20px;
+        text-align: center;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      /* Button styles */
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #0E9E52; /* Reddish */
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      /* Button hover effect */
+      .button:hover {
+        background-color: #0E9E52;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 style="color: #f9f9f9">Welcome to Cafe 365!</h1>
+      </div>
+      <div class="content">
+        <p style="color: #333">Hi {{name}},</p>
+        <p style="color: #333">
+          Thank you for creating an account with
+          <span style="color: #0E9E52; font-weight: bold">Cafe 365</span>! We
+          are excited to welcome you to our food paradize.
+        </p>
+        <p style="color: #333">
+          Your account has been successfully created. From now on, you can
+          explore our awesome foods and menus. Just one click to your order.
+        </p>
+        <p style="color: #333">
+          If you have any questions or need assistance, feel free to contact us.
+          We're here to help! Keep enjoying your meal!
+        </p>
+        <p style="color: #333">
+          Best regards,<br /><span style="color: #0E9E52"
+            >Cafe 365 Team</span
+          >
+        </p>
+      </div>
+      <div class="footer">
+        <p style="color: #f9f9f9">© 2024 Cafe 365. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>
